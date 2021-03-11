@@ -20,15 +20,19 @@ character may be used for different operating systems.
   ○ In MacOS classic system, CR (carriage return) character
   
 ● CSV2XML tool must take the following command line arguments:
-  ○ -separator
-    defines separator between each datum (1=comma, 2=tab, 3=semicolon)
-  ○ -opsys
-    defines the end of line character format (1=windows, 2=linux, 3=macos)
-  ○ -h
-    print information to screen about how other arguments can be used.
+
+    ○ -separator
+       defines separator between each datum (1=comma, 2=tab, 3=semicolon)
+       
+    ○ -opsys
+       defines the end of line character format (1=windows, 2=linux, 3=macos)
+       
+    ○ -h
+        print information to screen about how other arguments can be used.
     
 ● Usage of CSV2XML file must be as follows:
-  CSV2XML <inputfile> <outputfile> [-separator <P1>][-opsys <P2>][-h]
+
+      CSV2XML <inputfile> <outputfile> [-separator <P1>][-opsys <P2>][-h]
   
 ● The first argument, <input file> refers the source filename to be used for the
 conversion and the second one, <outputfile>, refer the target XML filename. You
@@ -39,4 +43,5 @@ P1 and P2 values can have the following values:
     2=linux or 3=macos
   
 ● The sample command line usage converting from CSV to XML as follows:
-  CVS2XML Contacts.csv Contacts.xml -separator 1 -opsys 1
+  
+     CVS2XML Contacts.csv Contacts.xml -separator 1 -opsys 1
