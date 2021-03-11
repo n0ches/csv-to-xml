@@ -8,16 +8,18 @@ spreadsheet program, such as Microsoft Excel or Google Spreadsheets. In CSVs,
 the separator may also be different characters, rather than comma. In this
 assignment, we assume that the following characters are used as separator
 character:
-  ○ comma (,)
-  ○ tab
-  ○ semicolon (;)
+
+    ○ comma (,)
+    ○ tab
+    ○ semicolon (;)
   
 ● CSV2XML converter tool takes the name of the CSV input file assuming that is
 encoded in UTF-8. You know that CSV flies are text file where different end of line
 character may be used for different operating systems.
-  ○ In Windows system, CR+LF (carriage return and line feed) characters
-  ○ In Linux system, LF (line feed) character
-  ○ In MacOS classic system, CR (carriage return) character
+
+    ○ In Windows system, CR+LF (carriage return and line feed) characters
+    ○ In Linux system, LF (line feed) character
+    ○ In MacOS classic system, CR (carriage return) character
   
 ● CSV2XML tool must take the following command line arguments:
 
